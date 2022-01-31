@@ -33,7 +33,7 @@ input[type="text"] {
 }
 
 input[type="text"]:focus-visible {
-  outline: 2px solid hotpink;
+  outline: 2px solid blue;
 }
 
 .search-container button {
