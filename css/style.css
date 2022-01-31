@@ -12,8 +12,8 @@
   gap: 1em;
 }
 
-.body {
-  background-color: #423434;
+body {
+  background-color: #a58a8a;
 }
 
 .container {
@@ -26,9 +26,14 @@
 }
 
 input[type="text"] {
+  float: left;
   padding: 6px;
   border: none;
   font-size: 17px;
+}
+
+input[type="text"]:focus-visible {
+  outline: 2px solid hotpink;
 }
 
 .search-container button {
