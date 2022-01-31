@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.body {
+  background-color: #423434;
+}
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 2em;
+}
+
+.search-bar {
+  flex: 1 1 500px;
+}
+
+.icon {
+  display: flex;
+  gap: 1em;
+}
+
+.icon__user,
+.icon__cart {
+  min-width: 30px;
+  min-height: 30px;
+}
