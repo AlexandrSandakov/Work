@@ -2,9 +2,4 @@
   .flex-wrapp {
     justify-content: space-around;
   }
-  .search-bar {
-    position: absolute;
-    top: 15%;
-    width: 200px;
-  }
 }

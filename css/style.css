@@ -25,8 +25,22 @@
   padding: 2em;
 }
 
-.search-bar {
-  flex: 1 1 500px;
+input[type="text"] {
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+}
+
+.search-container button {
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
 }
 
 .icon {
